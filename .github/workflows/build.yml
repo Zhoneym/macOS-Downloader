@@ -12,6 +12,7 @@ on:
           - Sonoma v14.7.4
           - Ventura v13.7.4
           - Monterey v12.7.4
+          - Sierra 10.13.6
       file:
         type: choice
         description: "File Type"
