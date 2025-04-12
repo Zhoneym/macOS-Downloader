@@ -42,6 +42,7 @@ jobs:
       # Download Installer
       - name: Download macOS Installer
         run: |
+          softwareupdate --list-full-installers
           softwareupdate --fetch-full-installer --full-installer-version ${{ env.installer_version }}
 
       # Generate Installer
