@@ -11,7 +11,7 @@ on:
           - Sequoia v15.2
           - Sonoma v14.7.2
           - Ventura v13.7.2
-          - Monterey v12.7.6
+          - Monterey v12.7.5
       file:
         type: choice
         description: "File Type"
