@@ -8,10 +8,10 @@ on:
         description: "macOS Version"
         required: true
         options:
-          - Sequoia v15.2
+          - Sequoia v15.3.2
           - Sonoma v14.7.2
           - Ventura v13.7.2
-          - Monterey v12.7.5
+          - Monterey v12.7.4
       file:
         type: choice
         description: "File Type"
